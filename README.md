@@ -92,3 +92,16 @@ Third-party APIs, libraries and products remain the work of their respective mai
 - [chunma-san](https://github.com/chunma-san) — Project maintenance and development.
 
 Original contributors retain their authorship and license notices. See the repository history for individual contributions.
+
+## Validated dependency snapshot (2026-10-29)
+
+Maintained by [chunma-san](https://github.com/chunma-san).
+
+`requirements.lock` records the compatible package set checked on Linux with
+Python 3.14. Install it into a fresh virtual environment with
+`python -m pip install -r requirements.lock`, then run `python -m pip check`.
+Other Python versions and platforms need their own compatibility checks.
+Keep your configuration and session files private and back up the old
+environment before replacing it.
+
+Dependency resolution, Telethon imports and service startup passed. No test messages were sent.
